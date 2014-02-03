@@ -1,10 +1,11 @@
 {
   "name": "sardis.cms",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sardis CMS",
   "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   },
   "dependencies": {
     "logfmt": "~0.20.0",
-    "express": "~3.4.8"
+    "express": "~3.4.8",
+    "ejs": "*",
+    "less-middleware": "*"
   },
   "engines": {
     "node": "0.10.x"
